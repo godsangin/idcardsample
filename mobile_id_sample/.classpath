@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/bcprov-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/commons-dbcp2-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/commons-pool2-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/core-1.54.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/guava-20.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/jackson-annotations-2.12.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/jackson-core-2.12.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/jackson-databind-2.12.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/json-20210307.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/lombok-1.18.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/OmniEnt-SDK-Core-1.0.3.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/OmniEnt-SDK-ServerCore-1.0.3.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/OmniEnt-SDK-Verifier-1.0.3.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/pkix-1.54.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/prov-1.54.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/RSLicenseSDK_jdk16_1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/mobile_id_sdk/slf4j-api-1.7.32.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
