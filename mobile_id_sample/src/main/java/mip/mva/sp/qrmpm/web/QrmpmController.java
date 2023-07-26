@@ -61,7 +61,7 @@ public class QrmpmController {
 		
 		mipApiData.setResult(true);
 		mipApiData.setData(Base64Util.encode(ConfigBean.gson.toJson(data)));
-		
+		System.out.println("qrmpm + m200 mipAPIData==" + mipApiData.toString());
 		return mipApiData;
 	}
 
