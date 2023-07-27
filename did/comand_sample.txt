@@ -1,0 +1,40 @@
+---------------------------------------------------------------------------------
+-- for Linux
+---------------------------------------------------------------------------------
+// Wallet 생성 => sp.wallet
+./omni-cli.sh keymanager createstore -p
+./omni-cli.sh keymanager addkey -i omni.sp --keytype 0 -p
+./omni-cli.sh keymanager addkey -i omni.sp.rsa --keytype 1 -p
+./omni-cli.sh keymanager list -p
+
+// DID Document 생성 (controller did 수정 금지) => sp.did
+./omni-cli.sh did2 create -i omni.sp --keymethod 3 -s sp.did --controller did:kr:mobileid:3pnuR77qKLZWnu4kaw4qmVtGcoZt -p
+// 키(RSA) 추가 
+./omni-cli.sh did2 addkey -i omni.sp.rsa --keymethod 4 -f sp.did -p
+
+
+// 패스워드 변경시
+./omni-cli.sh keymanager changepwd -m example_op.wallet -p -n
+
+---------------------------------------------------------------------------------
+-- for Windows
+---------------------------------------------------------------------------------
+// Wallet 생성 => sp.wallet
+omni-cli.bat keymanager createstore -p
+omni-cli.bat keymanager addkey -i omni.sp --keytype 0 -p
+omni-cli.bat keymanager addkey -i omni.sp.rsa --keytype 1 -p
+omni-cli.bat keymanager list -p
+
+// DID Document 생성 (controller did 수정 금지) => sp.did
+omni-cli.bat did2 create -i omni.sp --keymethod 3 -s sp.did --controller did:kr:mobileid:3pnuR77qKLZWnu4kaw4qmVtGcoZt -p
+// 키(RSA) 추가 
+omni-cli.bat did2 addkey -i omni.sp.rsa --keymethod 4 -f sp.did -p
+
+
+// 패스워드 변경시
+omni-cli.bat keymanager changepwd -m example_op.wallet -p -n
+
+
+* 개발/운영 구분에 따라 controller DID 변경
+개발 : did:kr:mobileid:3pnuR77qKLZWnu4kaw4qmVtGcoZt
+운영 : did:kr:mobileid:4VmgGJ3geNyyKRKupXDiCkw1kKw5

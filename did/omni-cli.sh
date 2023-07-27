@@ -1,0 +1,1 @@
+java -jar -Djava.security.egd=file:/dev/./urandom OmniEnt-Tool-SP-CLI-v1.0.3.4.jar $@
