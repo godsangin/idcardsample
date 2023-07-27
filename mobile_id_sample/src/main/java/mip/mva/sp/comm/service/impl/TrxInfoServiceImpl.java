@@ -79,6 +79,8 @@ public class TrxInfoServiceImpl implements TrxInfoService {
 	public void checkTrxInfoExist(String trxcode) throws SpException {
 		try {
 			//거래내역 조회 - 중복 확인
+
+			System.out.println("여기지 이놈아!!!!!!!!!!!!!!!");
 			if (trxInfoDAO.selectTrxInfo(trxcode) != null) {
 				throw new SpException(MipErrorEnum.SP_ALREADY_EXIST_TRXCODE, trxcode);
 			}
@@ -91,6 +93,7 @@ public class TrxInfoServiceImpl implements TrxInfoService {
 			
 			throw new SpException(MipErrorEnum.SP_DB_ERROR, trxcode, "trxInfo check");
 		}
+		System.out.println("아닌데 븅신데??????");
 	}
 
 	/**
