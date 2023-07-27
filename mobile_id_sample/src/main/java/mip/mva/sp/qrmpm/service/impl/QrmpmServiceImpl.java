@@ -131,7 +131,7 @@ public class QrmpmServiceImpl implements QrmpmService {
 		trxInfoService.registTrxInfo(trxInfo);
 
 		M200VO m200 = new M200VO();
-
+		System.out.println("m200==============" + m200.toString());
 		m200.setTrxcode(trxcode);
 		m200.setMode(mode);
 		m200.setImage(spBiImageUrl);
