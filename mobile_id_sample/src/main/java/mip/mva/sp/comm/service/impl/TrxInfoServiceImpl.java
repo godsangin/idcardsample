@@ -3,6 +3,7 @@ package mip.mva.sp.comm.service.impl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import mip.mva.sp.comm.dao.TrxInfoDAO;
 import mip.mva.sp.comm.enums.MipErrorEnum;
@@ -23,6 +24,7 @@ import mip.mva.sp.comm.vo.TrxInfoVO;
  * 2022. 6. 3.    Min Gi Ju        최초생성
  */
 @Service
+@Transactional
 public class TrxInfoServiceImpl implements TrxInfoService {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(TrxInfoServiceImpl.class);
