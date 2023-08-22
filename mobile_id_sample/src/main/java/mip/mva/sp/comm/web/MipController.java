@@ -208,8 +208,6 @@ public class MipController {
 
 		trxInfo = trxInfoService.getTrxInfo(trxInfo.getTrxcode());
 		
-		System.out.println("my privacy==" + directService.getVPData(trxInfo.getVp()));
-		
 		mipApiData.setResult(true);
 		mipApiData.setData(Base64Util.encode(ConfigBean.gson.toJson(trxInfo)));
 
@@ -277,6 +275,8 @@ public class MipController {
 		}
 
 		String vpData = directService.getVPData(vp);
+		System.out.println("my privacy==" + directService.getVPData(vpData));
+		
 
 		mipApiData.setResult(true);
 		mipApiData.setData(Base64Util.encode(vpData));
