@@ -299,8 +299,12 @@ public class DirectServiceImpl implements DirectService {
 		} else {
 			throw new SpException(MipErrorEnum.SP_UNSUPPORTED_VP_PRESENT_TYPE);
 		}
-		System.out.println(mipDidVpService.getPrivacy(vpData).toString());
 		return vpData;
+	}
+	
+	@Override
+	public String getVPData(String vp) throws SpException{
+		return mipDidVpService.getPrivacy(vp).toString();
 	}
 	
 	/**

@@ -93,6 +93,7 @@ public interface DirectService {
 	 */
 	public String getVPData(VP vp) throws SpException;
 	
+	public String getVPData(String VP) throws SpException;
 	/**
 	 * CI 조회
 	 * 
