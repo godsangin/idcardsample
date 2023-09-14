@@ -1,6 +1,6 @@
 INSERT INTO tb_service (svcCode,presentType,authType,spName,serviceName,attrList,predList,callBackUrl,regDt,udtDt) VALUES
     ('sangin.1',     1,  NULL,             '상추',           '서비스1-일반인증',                        NULL                             , NULL                                        ,NULL, '2023-08-01 15:08:15.0', NULL),
-	('example.2',     1,  '["pin","face"]', 'GS25',           '서비스2-안심인증',                        NULL                             , NULL                                        ,NULL, '2021-12-15 15:08:15.0', NULL),
+	('sangin.2',     1,  '["pin","face"]', 'GS25',           '서비스2-안심인증',                        NULL                             , NULL                                        ,NULL, '2021-12-15 15:08:15.0', NULL),
     ('zkp.1',         2,  NULL,             'GS25',           '성인인증',                                NULL                             , '[{"zkpbirth":{"type":"LE","value":"-19"}}]',NULL, '2021-12-29 15:42:15.0', NULL),
 	('zkp.2',         2,  NULL,             'GS25',           '기타 영지식 증명',                        '["zkpaddr","zkpsex","zkpasort"]', NULL                                        ,NULL, '2021-12-15 15:08:15.0', NULL),
 	('zkp.3',         2,  NULL,             'GS25',           '혼합 영지식 증명',                        '["zkpaddr","zkpsex","zkpasort"]', '[{"zkpbirth":{"type":"LE","value":"-19"}}]',NULL, '2021-12-15 15:08:15.0', NULL),
