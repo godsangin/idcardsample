@@ -1,6 +1,6 @@
 # 모바일신분증 연계 SP서버 구축 시 활용가이드
 
-## 개발지원센터 주소
+## 모바일신분증 개발지원센터
  > - https://dev.mobileid.go.kr/mip/dfs/dfsmain.do
 
 #### 사전준비
