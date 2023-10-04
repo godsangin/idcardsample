@@ -1,7 +1,7 @@
 # 모바일신분증 연계 SP서버 구축 시 활용가이드
 
 ## 모바일신분증 개발지원센터
- > - https://dev.mobileid.go.kr/mip/dfs/dfsmain.do
+ > - https://dev.mobileid.go.kr
 
 #### 사전준비
 > - 연계서비스 이용절차(1~6번) 선행 및 SP서버에서 DID 및 Wallet 생성, 모바일신분증 블록체인 내 DID 등록
