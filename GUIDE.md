@@ -5,10 +5,10 @@
 > 연계서비스 이용절차 : https://dev.mobileid.go.kr/mip/dfs/apiuse/apiusestep.do
 
 ### 사전준비
-> 연계서비스 이용절차(1~6번) 선행 및 SP서버에서 DID 및 Wallet 생성, 모바일신분증 블록체인 내 DID 등록
-> 연계서비스 이용절차(7번) 내 SP서버 샘플코드 다운로드
-> Java 및 Spring Boot 실행환경 구축(Eclipse, VSCode 등)
-> 테스트 앱 설치 및 테스트데이터 등록을 통한 테스트용 모바일신분증 발급
+1. 연계서비스 이용절차(1~6번) 선행 및 SP서버에서 DID 및 Wallet 생성, 모바일신분증 블록체인 내 DID 등록
+2. 연계서비스 이용절차(7번) 내 SP서버 샘플코드 다운로드
+3. Java 및 Spring Boot 실행환경 구축(Eclipse, VSCode 등)
+4. 테스트 앱 설치 및 테스트데이터 등록을 통한 테스트용 모바일신분증 발급
 
 ### 1. 일반 SP 서버 구축하기
 
