@@ -19,6 +19,14 @@
 SP서버의 기본환경을 설정합니다.(application.properties 설정)
 SP서버의 인터넷망 IP, 서비스의 포트번호, Connection Timeout, 이용할 블록체인 서버의 주소를 설정합니다.
 <img src="./스크린샷 2023-10-10 오후 9.26.34.png" />
+'''groovy
+server.port=8081
+server.servlet.context-path=/
+spring.mvc.view.prefix=/WEB-INF-views/
+spring.mvc.view.suffix=.jsp
+server.servlet.jsp.init-parameters.development=true
+spring.devtools.liverload.enagled=true
+'''
 
 #### 1.2. DID 및 Wallet 설정
 이용기관에서 생성한 DID 및 Wallet 정보를 설정합니다.(application.properties 설정)
